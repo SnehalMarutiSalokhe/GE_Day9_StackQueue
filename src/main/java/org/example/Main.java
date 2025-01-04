@@ -29,5 +29,10 @@ public class Main {
         queue.enqueue(70);
         System.out.println("Queue after enqueues: " + queue);
 
+        while (!queue.isEmpty()) {
+            System.out.println("Dequeued item: " + queue.dequeue());
+            System.out.println("Queue now: " + queue);
+        }
+
     }
 }
