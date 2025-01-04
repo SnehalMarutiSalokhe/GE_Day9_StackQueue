@@ -26,7 +26,8 @@ public class Queue<T> {
         return queue.toString();
     }
 
-    public static void main(String[] args) {
-
+    public T dequeue() {
+        return queue.pollFirst();
     }
+
 }
