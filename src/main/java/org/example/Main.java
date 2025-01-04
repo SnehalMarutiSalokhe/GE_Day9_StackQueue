@@ -14,5 +14,13 @@ public class Main {
             stack.push(56);
             System.out.println("Stack after pushes: " + stack);
 
+        System.out.println("UC2 " + stack);
+
+        while (!stack.isEmpty()) {
+            System.out.println("Top item: " + stack.peek());
+            System.out.println("Popped item: " + stack.pop());
+            System.out.println("Stack now: " + stack);
+        }
+
     }
 }

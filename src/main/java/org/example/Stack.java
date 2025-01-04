@@ -26,4 +26,12 @@ public class Stack<T> {
         return stack.toString();
     }
 
+    public T peek() {
+        return stack.peekFirst();
+    }
+
+    public T pop() {
+        return stack.pollFirst();
+    }
+
 }
